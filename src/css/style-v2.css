@@ -1,108 +1,108 @@
 body {
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
-   line-height: 1.5;
-   color: #333333;
-   background-color: dimgrey;
-   background-image: url("../img/background/pattern.png");
-   background-size: 250px 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #333333;
+	background-color: dimgrey;
+	background-image: url("../img/background/pattern.png");
+	background-size: 250px 250px;
 
 }
 
 .title {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   text-align: center;
-   font-weight: 700;
-   letter-spacing: -2;
-   text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: -2;
+	text-transform: uppercase;
 }
 
 .justify {
-   text-align: justify;
-   font-weight: 700;
-   font-style: italic;
-   text-transform: capitalize;
+	text-align: justify;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: capitalize;
 }
 
 .ul {
-   list-style-type: square;
-   list-style-position: outside;
+	list-style-type: square;
+	list-style-position: outside;
 
-   color: #114eaf;
+	color: #114eaf;
 }
 
 .ol {
-   list-style-type: decimal-leading-zero;
+	list-style-type: decimal-leading-zero;
 }
 
 .table {
-   width: 100%;
-   border: 1px dashed #aaa;
-   border-collapse: collapse;
+	width: 100%;
+	border: 1px dashed #aaa;
+	border-collapse: collapse;
 }
 
 .table th {
-   padding: 5px 10px;
-   text-align: left;
-   color: #ef2828;
+	padding: 5px 10px;
+	text-align: left;
+	color: #ef2828;
 }
 
 .table td {
-   padding: 5px 10px;
-   border: 1px dashed #aaa;
+	padding: 5px 10px;
+	border: 1px dashed #aaa;
 }
 
 .table tfoot td {
-   text-align: right;
+	text-align: right;
 }
 
 .text-red {
-   display: inline-block;
-   width: 100px;
+	display: inline-block;
+	width: 100px;
 
-   color: #ce2424;
-   font-weight: 700;
-   font-style: italic;
+	color: #ce2424;
+	font-weight: 700;
+	font-style: italic;
 }
 
 .page {
-   width: 900px;
-   margin-left: auto;
-   margin-right: auto;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Post */
 
 .post {
-   width: 600px;
-   height: 300px;
-   padding: 15px 25px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 40px;
+	width: 600px;
+	height: 300px;
+	padding: 15px 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
 
-   /* border: 1px solid #ddd; */
-   background-color: white;
-   background-image: url("../img/background/bg.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-
+	/* border: 1px solid #ddd; */
+	background-color: white;
+	background-image: url("../img/background/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
 }
 
 .post-title {
-   margin-top: 0;
-   margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
 
-   color: yellow;
+	color: yellow;
 }
 
 .post-text {
-   color: aliceblue;
+	color: aliceblue;
 }
 
 .post-text p {
-   margin: 0 0 10 0;
+	margin: 0 0 10 0;
 
 
 }
@@ -110,10 +110,10 @@ body {
 /* Gradient */
 
 .gradient {
-   width: 600px;
-   height: 300px;
-   margin: 0 auto;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
 
-   /* background-image: linear-gradient(to bottom, pink 20%, black 50%, white 20%, red 70%, aqua 5%); */
-   background-image: radial-gradient(circle, pink 0, black 0, white 0, red 0, aqua);
+	/* background-image: linear-gradient(to bottom, pink 20%, black 50%, white 20%, red 70%, aqua 5%); */
+	background-image: radial-gradient(circle, pink 0, black 0, white 0, red 0, aqua);
 }
