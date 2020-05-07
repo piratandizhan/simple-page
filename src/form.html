@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Работа с формамы</title>
+	<link rel="stylesheet" href="css/style-v2.css">
+</head>
+<body>
+	<div class="form">
+		<h1 class="title">The form</h1>
+		<form action="/" method="">
+			<!--todo Можно И так оформлять fieldset -->
+			<fieldset> 
+				<legend>Контактная информация</legend>
+			<div class="form-group">
+				<label for="input-name">Your name</label>
+				<!--! Можно и так написать <input type="text" name="name" id="input-name" class="form-input"> -->
+				<input class="form-input" type="text" name="name" id="input-name">
+			</div>
+			<div class="form-group">
+				<input class="form-input" type="email" name="email" placeholder="Your email">
+			</div>
+			<div class="form-group">
+				<input class="form-input" type="tel" name="tel" placeholder="Your phone number">
+			</div>
+			<div class="form-group">
+				<input class="form-input" type="password" name="password" placeholder="Create your password">
+			</div>
+			</fieldset>
+			<div class="form-group">
+				<textarea class="form-textarea" name="text" placeholder="About you"></textarea>
+			</div> 
+			<div class="form-group">
+			<select name="City" id="">
+				<option value="">Tashkent</option>
+				<option value="">Moscow</option>
+			</select>
+			</div>
+			<div class="form-group">
+				<label for="my-input">Male</label>
+				<input id="my-input" class="form-control" type="radio" name="choose-male">
+				<label for="my-input-female">Female</label>
+				<input id="my-input-female" class="form-control" type="radio" name="choose-male">
+			</div>
+			<div class="form-group">
+				<label for="photo">Photo</label>
+				<input type="file" name="" id="photo">
+			</div>
+			<div class="form-group">
+				<input type="checkbox" name="" id="rules-agree">
+				<label for="rules-agree">I agree</label>
+			</div>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+			<button type="button">Button</button>
+
+		</form>
+	</div>
+	 
+</body>
+</html>

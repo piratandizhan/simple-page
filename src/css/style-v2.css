@@ -87,7 +87,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	
+
 }
 
 .post-title {
@@ -117,3 +117,43 @@ body {
 	/* background-image: linear-gradient(to bottom, pink 20%, black 50%, white 20%, red 70%, aqua 5%); */
 	background-image: radial-gradient(circle, pink 0, black 0, white 0, red 0, aqua);
 }
+
+/* Form */
+
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+
+	background-color: white;
+
+
+}
+
+.form-group {
+	margin-bottom: 15px;
+
+}
+
+.form-input {
+	display: block;
+	padding: 5px;
+
+	border: 1px solid #000;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.form-textarea {
+	width: 200px;
+	height: 150px;
+	padding: 5px;
+	
+	border: 1px solid #000;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
