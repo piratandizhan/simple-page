@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Регистрация</title>
+</head>
+
+<body>
+	<div class="auth">
+		<h1 class="auth-title">Регистрация</h1>
+		<form action="/" method="post">
+			<div class="form-group">
+				<input class="input" type="text" name="name" id="" placeholder="Ваше польное имя">
+			</div>
+
+			<div class="form-group">
+				<input class="input" type="email" name="email" id="" placeholder="Ваш e-mail">
+			</div>
+
+			<div class="form-group">
+				<input class="input" type="tel" name="phone" id="" placeholder="Ваш номер телефона">
+			</div>
+
+			<div class="form-group">
+				<input class="input" type="password" name="password" id="" placeholder="Введите пароль">
+			</div>
+
+			<div class="form-group">
+				<input class="input" type="password" name="password_confirm" id="" placeholder="Повторите пароль">
+			</div>
+			<div class="form-group">
+				<select name="city" id="input" class="form-control">
+					<option value="Moscow">Moscow</option>
+					<option value="Tashkent">Tashkent</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<input type="checkbox" name="rules" id="rules">
+				<label for="rules">Принимаю <a class="link" href="http://">условия</a> пользования</label>
+			</div>
+			
+			<button type="submit" class="btn btn-large btn-block btn-success">Отправить</button>
+			
+		</form>
+	</div>
+
+</body>
+
+</html>

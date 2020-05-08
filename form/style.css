@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	font: 15px 1.5 Arial, sans-serif;
+	color: black;
+	background-color: #4747ffec;
+
+}
+
+/* Auth */
+
+.auth {
+	width: 260px;
+	padding: 20px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.auth-title {
+	margin: 0 0 15px;
+	font: 20px;
+	color: red;
+	text-align: center;
+}
+
+/* Input */
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.input {
+	display: block;
+	padding: 8px 10px;
+	width: 238px;
+	background-color:#fff;
+
+
+	border: 1px solid grey;
+
+	font-family: inherit;
+	font-size: 15px;
+}
+
+.input:focus {
+	outline: none;
+
+	border-color: #60aff0;
+}
+
+.form-control {
+	display: block;
+	padding: 8px 10px;
+	width: 258px;
+	background-color:#fff;
+
+	border: 1px solid grey;
+	border-radius: 4px;
+
+	font-family: inherit;
+	font-size: 15px;
+}
+
+.form-control:focus {
+	outline: none;
+
+	border-color: #60aff0;
+}
+
+/* Button */
+
+.btn{
+	display: block;
+	width: 260px;
+	padding: 10px;
+
+	border:0;
+	background-color:#6c9e20;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color:white;
+
+}
+
+.btn:focus{
+	outline: none;
+}
+
+.btn:hover,
+.btn:focus{
+	background-color:#5a8816;
+	cursor: pointer;
+
+}
+
+.btn:active{
+	background-color:#3f5c13;
+}
+.link{
+	text-decoration: none;
+}
