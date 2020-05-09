@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	background-color: #d6d3d3;
+}
+
+.composition {
+	width: 650px;
+	height: 400px;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+	/*  TODO  overflow: hidden Скриваеть то что выходить за пределе рамки-рамка у нас composition */
+
+	background-color: #9acdf7;
+}
+
+.img-fluid {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	z-index: 1;
+}
+
+.img-car {
+	position: absolute;
+	right: 30px;
+	bottom: 40px;
+	z-index: 3;
+}
+
+.img-tree {
+	position: absolute;
+	right: 40px;
+	bottom: 80px;
+	z-index: 2;
+}
+
+.img-cloud{
+	position: absolute;
+	top: 30px;
+	left: -20px;
+	z-index: 2;
+
+}
+.img-cloud-2{
+	position: absolute;
+	top: 5px;
+	left: 150px;
+	z-index: 1;
+}
+.img-cloud-3{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+} 
