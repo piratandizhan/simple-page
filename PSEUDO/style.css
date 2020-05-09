@@ -1,0 +1,28 @@
+body {}
+
+.pseudo-title {
+	margin: 0;
+	font-size: 30px;
+}
+
+
+/* TODO ЕСЛИ У ПРЕВДОЕЛЕМЕНТОВ СТИЛИ ОДИНАКОГО ТО МОЖНО И ОБЬЕДИНИТЬ  КАК ЗДЕСЬ ПОКАЗОНА pseudo-title:before,
+.pseudo-title::after {
+	color: #e44a4a;
+	font-size: 25px;
+
+} */
+
+.pseudo-title:before {
+	content: "1.";
+
+	color: #e44a4a;
+	font-size: 25px;
+}
+
+.pseudo-title::after {
+	content: ".!";
+
+	color: #e44a4a;
+	font-size: 25px;
+}
