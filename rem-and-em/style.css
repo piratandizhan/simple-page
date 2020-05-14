@@ -1,0 +1,46 @@
+html{
+	font-size: 15px;
+}
+
+
+body {
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1rem;
+	color: #121212;
+
+}
+
+.container {
+	width: 400px;
+	/* font-size: 30px; */
+	padding: 1em;
+	margin: 20px auto;
+
+	background-color: #eeeeee;
+
+}
+
+.title {
+	margin: 0 0 1rem;
+	font-size: 2rem;
+	color: #121212;
+
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.4em 0.8em;
+
+	background-color: #33df33;
+	font-size: 1rem;
+	border-radius: 0.3em;
+	box-shadow: 0 0 0.2em #afafaf;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.btn-xl {
+	font-size: 2rem;
+}
