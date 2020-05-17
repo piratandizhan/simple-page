@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Novecento Carved wide UtLt';
+    src: url('NovecentoCarvedwide-UtLt.eot');
+    src: local('Novecento Carved wide UltraLight'), local('NovecentoCarvedwide-UtLt'),
+        url('NovecentoCarvedwide-UtLt.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-UtLt.woff2') format('woff2'),
+        url('NovecentoCarvedwide-UtLt.woff') format('woff'),
+        url('NovecentoCarvedwide-UtLt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide Book';
+    src: url('NovecentoCarvedwide-Bold.eot');
+    src: local('Novecento Carved wide Bold'), local('NovecentoCarvedwide-Bold'),
+        url('NovecentoCarvedwide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-Bold.woff2') format('woff2'),
+        url('NovecentoCarvedwide-Bold.woff') format('woff'),
+        url('NovecentoCarvedwide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow Book';
+    src: url('NovecentoCarvednarrow-Bold.eot');
+    src: local('Novecento Carved narrow Bold'), local('NovecentoCarvednarrow-Bold'),
+        url('NovecentoCarvednarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-Bold.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-Bold.woff') format('woff'),
+        url('NovecentoCarvednarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide';
+    src: url('NovecentoCarvedwide-Light.eot');
+    src: local('Novecento Carved wide Light'), local('NovecentoCarvedwide-Light'),
+        url('NovecentoCarvedwide-Light.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-Light.woff2') format('woff2'),
+        url('NovecentoCarvedwide-Light.woff') format('woff'),
+        url('NovecentoCarvedwide-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond UtLt';
+    src: url('NovecentoCarvedcond-Medium.eot');
+    src: local('Novecento Carved condensed Medium'), local('NovecentoCarvedcond-Medium'),
+        url('NovecentoCarvedcond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-Medium.woff2') format('woff2'),
+        url('NovecentoCarvedcond-Medium.woff') format('woff'),
+        url('NovecentoCarvedcond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide Normal';
+    src: url('NovecentoCarvedwide-Normal.eot');
+    src: local('Novecento Carved wide Normal'), local('NovecentoCarvedwide-Normal'),
+        url('NovecentoCarvedwide-Normal.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-Normal.woff2') format('woff2'),
+        url('NovecentoCarvedwide-Normal.woff') format('woff'),
+        url('NovecentoCarvedwide-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond Normal';
+    src: url('NovecentoCarvedcond-Normal.eot');
+    src: local('Novecento Carved condensed Normal'), local('NovecentoCarvedcond-Normal'),
+        url('NovecentoCarvedcond-Normal.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-Normal.woff2') format('woff2'),
+        url('NovecentoCarvedcond-Normal.woff') format('woff'),
+        url('NovecentoCarvedcond-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved Normal';
+    src: url('NovecentoCarved-UltraBold.eot');
+    src: local('Novecento Carved UltraBold'), local('NovecentoCarved-UltraBold'),
+        url('NovecentoCarved-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-UltraBold.woff2') format('woff2'),
+        url('NovecentoCarved-UltraBold.woff') format('woff'),
+        url('NovecentoCarved-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide';
+    src: url('NovecentoCarvedwide-DemiBold.eot');
+    src: local('Novecento Carved wide DemiBold'), local('NovecentoCarvedwide-DemiBold'),
+        url('NovecentoCarvedwide-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-DemiBold.woff2') format('woff2'),
+        url('NovecentoCarvedwide-DemiBold.woff') format('woff'),
+        url('NovecentoCarvedwide-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved';
+    src: url('NovecentoCarved-UltraLight.eot');
+    src: local('Novecento Carved UltraLight'), local('NovecentoCarved-UltraLight'),
+        url('NovecentoCarved-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-UltraLight.woff2') format('woff2'),
+        url('NovecentoCarved-UltraLight.woff') format('woff'),
+        url('NovecentoCarved-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved';
+    src: url('NovecentoCarved-Medium.eot');
+    src: local('Novecento Carved Medium'), local('NovecentoCarved-Medium'),
+        url('NovecentoCarved-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-Medium.woff2') format('woff2'),
+        url('NovecentoCarved-Medium.woff') format('woff'),
+        url('NovecentoCarved-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved';
+    src: url('NovecentoCarved-Light.eot');
+    src: local('Novecento Carved Light'), local('NovecentoCarved-Light'),
+        url('NovecentoCarved-Light.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-Light.woff2') format('woff2'),
+        url('NovecentoCarved-Light.woff') format('woff'),
+        url('NovecentoCarved-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved Normal';
+    src: url('NovecentoCarved-Normal.eot');
+    src: local('Novecento Carved Normal'), local('NovecentoCarved-Normal'),
+        url('NovecentoCarved-Normal.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-Normal.woff2') format('woff2'),
+        url('NovecentoCarved-Normal.woff') format('woff'),
+        url('NovecentoCarved-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond Normal';
+    src: url('NovecentoCarvedcond-UltraBold.eot');
+    src: local('Novecento Carved condensed UltraBold'), local('NovecentoCarvedcond-UltraBold'),
+        url('NovecentoCarvedcond-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-UltraBold.woff2') format('woff2'),
+        url('NovecentoCarvedcond-UltraBold.woff') format('woff'),
+        url('NovecentoCarvedcond-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved Book';
+    src: url('NovecentoCarved-Bold.eot');
+    src: local('Novecento Carved Bold'), local('NovecentoCarved-Bold'),
+        url('NovecentoCarved-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-Bold.woff2') format('woff2'),
+        url('NovecentoCarved-Bold.woff') format('woff'),
+        url('NovecentoCarved-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow';
+    src: url('NovecentoCarvednarrow-DemiBold.eot');
+    src: local('Novecento Carved narrow DemiBold'), local('NovecentoCarvednarrow-DemiBold'),
+        url('NovecentoCarvednarrow-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-DemiBold.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-DemiBold.woff') format('woff'),
+        url('NovecentoCarvednarrow-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond UtLt';
+    src: url('NovecentoCarvedcond-UtLt.eot');
+    src: local('Novecento Carved condensed UltraLight'), local('NovecentoCarvedcond-UtLt'),
+        url('NovecentoCarvedcond-UtLt.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-UtLt.woff2') format('woff2'),
+        url('NovecentoCarvedcond-UtLt.woff') format('woff'),
+        url('NovecentoCarvedcond-UtLt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide UtLt';
+    src: url('NovecentoCarvedwide-Medium.eot');
+    src: local('Novecento Carved wide Medium'), local('NovecentoCarvedwide-Medium'),
+        url('NovecentoCarvedwide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-Medium.woff2') format('woff2'),
+        url('NovecentoCarvedwide-Medium.woff') format('woff'),
+        url('NovecentoCarvedwide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow UltrLt';
+    src: url('NovecentoCarvednarrow-Medium.eot');
+    src: local('Novecento Carved narrow Medium'), local('NovecentoCarvednarrow-Medium'),
+        url('NovecentoCarvednarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-Medium.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-Medium.woff') format('woff'),
+        url('NovecentoCarvednarrow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond';
+    src: url('NovecentoCarvedcond-Light.eot');
+    src: local('Novecento Carved condensed Light'), local('NovecentoCarvedcond-Light'),
+        url('NovecentoCarvedcond-Light.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-Light.woff2') format('woff2'),
+        url('NovecentoCarvedcond-Light.woff') format('woff'),
+        url('NovecentoCarvedcond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow Normal';
+    src: url('NovecentoCarvednarrow-UltraBold.eot');
+    src: local('Novecento Carved narrow UltraBold'), local('NovecentoCarvednarrow-UltraBold'),
+        url('NovecentoCarvednarrow-UltraBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-UltraBold.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-UltraBold.woff') format('woff'),
+        url('NovecentoCarvednarrow-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond Book';
+    src: url('NovecentoCarvedcond-Bold.eot');
+    src: local('Novecento Carved condensed Bold'), local('NovecentoCarvedcond-Bold'),
+        url('NovecentoCarvedcond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-Bold.woff2') format('woff2'),
+        url('NovecentoCarvedcond-Bold.woff') format('woff'),
+        url('NovecentoCarvedcond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond';
+    src: url('NovecentoCarvedcond-DemiBold.eot');
+    src: local('Novecento Carved condensed DemiBold'), local('NovecentoCarvedcond-DemiBold'),
+        url('NovecentoCarvedcond-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-DemiBold.woff2') format('woff2'),
+        url('NovecentoCarvedcond-DemiBold.woff') format('woff'),
+        url('NovecentoCarvedcond-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved';
+    src: url('NovecentoCarved-DemiBold.eot');
+    src: local('Novecento Carved DemiBold'), local('NovecentoCarved-DemiBold'),
+        url('NovecentoCarved-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-DemiBold.woff2') format('woff2'),
+        url('NovecentoCarved-DemiBold.woff') format('woff'),
+        url('NovecentoCarved-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved cond Book';
+    src: url('NovecentoCarvedcond-Book.eot');
+    src: local('Novecento Carved condensed Book'), local('NovecentoCarvedcond-Book'),
+        url('NovecentoCarvedcond-Book.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedcond-Book.woff2') format('woff2'),
+        url('NovecentoCarvedcond-Book.woff') format('woff'),
+        url('NovecentoCarvedcond-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow';
+    src: url('NovecentoCarvednarrow-Light.eot');
+    src: local('Novecento Carved narrow Light'), local('NovecentoCarvednarrow-Light'),
+        url('NovecentoCarvednarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-Light.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-Light.woff') format('woff'),
+        url('NovecentoCarvednarrow-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved Book';
+    src: url('NovecentoCarved-Book.eot');
+    src: local('Novecento Carved Book'), local('NovecentoCarved-Book'),
+        url('NovecentoCarved-Book.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarved-Book.woff2') format('woff2'),
+        url('NovecentoCarved-Book.woff') format('woff'),
+        url('NovecentoCarved-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow Normal';
+    src: url('NovecentoCarvednarrow-Normal.eot');
+    src: local('Novecento Carved narrow Normal'), local('NovecentoCarvednarrow-Normal'),
+        url('NovecentoCarvednarrow-Normal.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-Normal.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-Normal.woff') format('woff'),
+        url('NovecentoCarvednarrow-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow Book';
+    src: url('NovecentoCarvednarrow-Book.eot');
+    src: local('Novecento Carved narrow Book'), local('NovecentoCarvednarrow-Book'),
+        url('NovecentoCarvednarrow-Book.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-Book.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-Book.woff') format('woff'),
+        url('NovecentoCarvednarrow-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved narrow UtLt';
+    src: url('NovecentoCarvednarrow-UtLt.eot');
+    src: local('Novecento Carved narrow UltraLight'), local('NovecentoCarvednarrow-UtLt'),
+        url('NovecentoCarvednarrow-UtLt.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvednarrow-UtLt.woff2') format('woff2'),
+        url('NovecentoCarvednarrow-UtLt.woff') format('woff'),
+        url('NovecentoCarvednarrow-UtLt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Carved wide Book';
+    src: url('NovecentoCarvedwide-Book.eot');
+    src: local('Novecento Carved wide Book'), local('NovecentoCarvedwide-Book'),
+        url('NovecentoCarvedwide-Book.eot?#iefix') format('embedded-opentype'),
+        url('NovecentoCarvedwide-Book.woff2') format('woff2'),
+        url('NovecentoCarvedwide-Book.woff') format('woff'),
+        url('NovecentoCarvedwide-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

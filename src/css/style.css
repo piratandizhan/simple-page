@@ -1,11 +1,10 @@
 body {
 	margin: 0;
-
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Serif',
+	serif;
 	font-size: 15px;
 	line-height: 1.5;
-	-moz-columns: #121212;
-	columns: #121212;
+	color: #121212;
 	background: url("../img/bg.png");
 }
 
@@ -62,21 +61,23 @@ h6 {
 }
 
 .header-title {
+	font-family: 'Caveat',
+	cursive;
 	margin: 0;
-
-	font-size: 24px;
+	font-weight: 700;
+	font-size: 40px;
 	color: #ffffff;
 	text-align: center;
 }
 
 .header-subtitle {
+	font-family: 'Caveat',
+	cursive;
 	margin: 0;
-
-
-	font-size: 16px;
+	font-weight: 400;
+	font-size: 28px;
 	color: #83bfffcc;
 	text-align: center;
-	font-style: 400;
 }
 
 /* Nav */
@@ -115,12 +116,13 @@ h6 {
 }
 
 .read-more {
-	color: rgba(#349df3);
-	text-decoration: none;
+	font-size: 12px;
+	color:#7c7979;
+	text-decoration:none;
 }
 
 .read-more:hover {
-	text-decoration: underline;
+	text-decoration:none;
 }
 
 /* Sitebar */
